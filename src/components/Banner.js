@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Saqib`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front End Developer", "Web Designer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Saqib`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Front End Developer", "Full Stack Developer " ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello, I’m Md Saqib Ahmed, a dedicated web developer with two years of experience specializing in frontend and backend development. I have a strong command of HTML5, CSS3 (including frameworks like Bootstarp, Tailwind CSS), JavaScript (ES6+), and frameworks such as React.js and Node.js. My expertise extends to crafting responsive, user-friendly websites and implementing backend solutions using MongoDB and Express JS. I thrive on collaborating with teams to deliver high-quality projects that meet both technical requirements and design expectations. Let's connect and explore how I can contribute to your next digital initiative.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
