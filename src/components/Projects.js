@@ -99,12 +99,11 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          "Thank you for visiting my portfolio! Feel free to
-                          connect with me if you’re looking for a skilled web
-                          developer for exciting projects or roles. I’m always
-                          open to new opportunities and collaborations!"
-                        </p>
+                      <Row>
+                          {projects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
